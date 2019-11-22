@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomNancyModule.cs" />
     <Compile Include="DataObjects\CustomMetadata.cs" />
     <Compile Include="Metadata\InfoMetadataModule.cs" />
     <Compile Include="Metadata\MetadataBase.cs" />
