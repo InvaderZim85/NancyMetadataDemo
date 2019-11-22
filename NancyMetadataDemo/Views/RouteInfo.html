@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>Nancy Api Demo</title>  
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>  
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>  
+</head>
+<body>  
+<div class="container body-content" style="margin: 20px">  
+    @Each  
+    <div class="col-md-6 ">  
+        <div class="panel panel-default">  
+            <div class="panel-body">  
+                <p>Name:<strong> @Current.Name</strong></p>  
+                <p>Method:<strong> @Current.Method</strong></p>  
+                <p>Path:<strong> @Current.Path</strong></p>  
+                <p>Description:<strong> @Current.Description</strong></p>  
+            </div>  
+        </div>              
+    </div>          
+    @EndEach  
+</div>  
+</body>  
+</html>
